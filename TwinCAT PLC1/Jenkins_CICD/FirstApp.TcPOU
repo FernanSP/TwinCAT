@@ -5,10 +5,11 @@
 VAR
 	bIN: BOOL;
 	bOut: BOOL;
+	bIn2: BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[bOut := NOT bIN;]]></ST>
+      <ST><![CDATA[bOut := NOT bIN AND bIn2;]]></ST>
     </Implementation>
     <LineIds Name="FirstApp">
       <LineId Id="5" Count="0" />
