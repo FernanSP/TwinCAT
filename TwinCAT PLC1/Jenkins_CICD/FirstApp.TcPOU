@@ -8,7 +8,7 @@ VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[bOut := bIN;]]></ST>
+      <ST><![CDATA[bOut := NOT bIN;]]></ST>
     </Implementation>
     <LineIds Name="FirstApp">
       <LineId Id="5" Count="0" />
