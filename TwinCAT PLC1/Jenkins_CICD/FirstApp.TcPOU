@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
+  <POU Name="FirstApp" Id="{a16bda55-b8de-441b-a22b-d088f2e9b3a9}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM FirstApp
+VAR
+	bIN: BOOL;
+	bOut: BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[bOut := bIN;]]></ST>
+    </Implementation>
+    <LineIds Name="FirstApp">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
