@@ -9,7 +9,7 @@ VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[bOut := NOT bIN AND bIn2;]]></ST>
+      <ST><![CDATA[bOut := NOT bIN AND NOT bIn2;]]></ST>
     </Implementation>
     <LineIds Name="FirstApp">
       <LineId Id="5" Count="0" />
